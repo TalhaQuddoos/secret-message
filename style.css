@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text&display=swap');
+body {
+	overflow-x: hidden;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 0;
+}
+
+.header {
+	width: 100vw;
+	background: purple;
+	font-family: 'Big Shoulders Inline Text';
+	padding: 10px;
+	height: 20vh;
+	text-align: center;
+	color: white;
+	display: block;
+}
+
+.header h1 {
+	font-size: 2rem;
+}
+
+.header h3 {
+	font-size: 1.5rem;
+}
+
+.container {
+	width: 100vw;
+	height: 80vh;
+	display: block;
+	/*margin-left: 0.5vw;*/
+	margin: 0;
+
+}
+
+.encrypt-container {
+	margin-top: 0;
+	float: left;
+	background-color: green;
+	height: 100%;
+	width: 50%;
+	display: inline-block;
+	
+}
+
+.decrypt-container {
+	background-color: red;
+	height: 100%;
+	float: right;
+	width: 50%;
+	display: inline-block;
+	
+}
+
+textarea {
+	margin-top: 10px;
+	text-align: center;
+	width: 80%;
+	margin-left: auto;
+	font-family: 'Big Shoulders Inline Text';
+	font-size: 30px;
+	border: 1px solid black;
+	border-radius: 10px;
+	outline: none;
+
+	/*overflow: scroll;*/
+	/*margin-right: auto;*/
+}
+
+input {
+	text-align: center;
+	width: 50%;
+	margin-left: auto;
+	font-family: 'Big Shoulders Inline Text';
+	font-size: 30px;
+	border: 1px solid black;
+	border-radius: 10px;
+	display: inline-block;
+	outline: none;
+	color: green
+}
+
+button {
+	border: none;
+	background: rgba(56, 127, 214, 0.8);
+	color: white;
+	font-family: 'Big Shoulders Inline Text';
+	width: 30%;
+	font-size: 30px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.heading {
+	display: inline-block;
+	font-family: 'Big Shoulders Inline Text';
+	color: white;
+	text-align: center;
+}
+
+button:hover {
+	background: rgba(56, 127, 214, 1)
+}
+
+.result{
+	margin-top: 20px;
+	background: white;
+	font-family: sans-serif;
+	/*color: re;	*/
+	font-size: 20px;
+	border: 1px solid black;
+	border-radius: 2px;
+	padding: 10px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	overflow-y: auto;
+	display: none;
+
+}
+
+@media screen and (max-width: 768px) {
+	.encrypt-container {
+		width: 100%;
+		display: block;
+	}
+
+	.decrypt-container {
+		width: 100%;
+		display: block;
+	}
+}

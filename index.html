@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Message Encryptor and Decryptor - Made by Talha Quddoos</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="header">
+		<h1>Message Encryptor and Decryptor</h1>
+		<h3>By Talha Quddoos</h3>
+	</div>
+	<div class="container">
+		<div id="encrypt-container" class="encrypt-container">
+			<h1 class="heading">Encrypt</h1><br>
+			<textarea id="encrypt-input" placeholder="Message" rows="5"></textarea><br>
+			<input type="text" id="encrypt-pk" placeholder="Public Key" />
+			<button id="encryptButton">Encrypt</button><br>
+			<div class="result" id="encryptResult"></div>
+		</div>
+		<div id="decrypt-container" class="decrypt-container">
+			<h1 class="heading">Decrypt</h1><br>
+			<textarea id="decrypt-input" placeholder="Message" rows="5"></textarea><br>
+			<input type="text" id="decrypt-pk" placeholder="Public Key" />
+			<button id="decryptButton">Decrypt</button><br>
+			<div class="result" id="decryptResult"></div>			
+		</div>
+	</div>
+	<script type="text/javascript" src="encdec.js"></script>
+
+</body>
+</html>
